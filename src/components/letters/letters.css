@@ -1,0 +1,40 @@
+.first-line, .second-line, .third-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.third-line{
+    margin-bottom: 10px;
+}
+
+.letters-key{
+    margin: 0 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffa7;
+    color: #000;
+    font-size: calc(1vw + 8px);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.letters-key:hover{
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #00000081;
+}
+
+.invisible{
+    opacity: 0;
+}
+
+
+
+

@@ -1,0 +1,29 @@
+.button {
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 60px;
+  font-weight: 500;
+  padding: 0 20px;
+  background: #FFF491;
+  border-radius: 40px;
+  border: 1px solid #00060c;
+  box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
+  font-size: calc(1vw + 8px);
+  }
+.button:hover {
+  background: #FFF491;
+  cursor: pointer;
+  box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+  background: #FFF491;
+  box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.2);
+  transform: translateY(4px);
+}
+.pokemon img{
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
+
