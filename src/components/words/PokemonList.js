@@ -7,9 +7,6 @@ function PokemonList({ onPokemonSelected }) {
   const [kantoPokemon, setKantoPokemon] = useState([]);
   const [selectedPokemon, setSelectedPokemon] = useState(null);
 
-
-
-
   useEffect(() => {
     async function fetchData() {
       const response = await axios.get(
