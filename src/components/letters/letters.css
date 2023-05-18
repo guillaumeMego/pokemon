@@ -38,3 +38,20 @@
 
 
 
+@media screen and (max-width: 768px) {
+    .letters-key{
+        height: 30px;
+        width: 40px;
+        font-size: calc(1vw + 5px);
+    }
+}
+@media screen and (max-width: 510px) {
+    .letters-key{
+        margin: 0 2px;
+        height: 25px;
+        width: 35px;
+        font-size: calc(1vw + 3px);
+    }
+}
+
+    

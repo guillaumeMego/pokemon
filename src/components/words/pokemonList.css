@@ -27,3 +27,14 @@
   margin-top: 10px;
 }
 
+@media screen and (max-width: 768px) {
+
+  .button {
+    line-height: 40px;
+    font-size: calc(1vw + 5px);
+  }
+  .pokemon img{
+    height: 100px;
+    width: 100px;
+  }
+}
